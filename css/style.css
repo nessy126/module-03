@@ -56,8 +56,6 @@ body {
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
   padding-left: 0;
 
   }
@@ -177,7 +175,7 @@ button:focus {
 .button.secondary {
   padding: 6px 22px;
   border-radius: 4px;
-  margin-bottom: 50px;
+
   margin-right: 8px;
 
   background-color: var(--secondary-bg-color);
@@ -224,8 +222,8 @@ header {
 }
 .logo {
   display: block;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 
   color: var(--accent-color);
 
@@ -251,6 +249,7 @@ header {
   padding-top: 32px;
   padding-bottom: 32px;
   
+  color: var(--title-text-color);
   letter-spacing: 0.02em;
   font-weight: 500;
 
@@ -296,11 +295,6 @@ header {
 .contact + .contact {
   margin-left: 50px;
 }
-
-.link:visited,
-.current:visited {
-  color: var(--title-text-color);
-} 
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -433,7 +427,7 @@ ul .feature.list {
 }
 
 .team-text {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.19;
@@ -496,7 +490,7 @@ address {
 
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
+  justify-content: space-between;
 }
 
 .footer-left {
@@ -534,8 +528,8 @@ address {
   margin-top: 0;
 }
 .footer-right {
-  /* margin-right: 93px;
-  width: calc((100% - 60px) / 2); */
+  /* margin-right: 93px; */
+  width: calc((100% - 60px) / 2);
 }
 
 .logo-footer {
@@ -598,6 +592,7 @@ address {
 }
 
 .filters {
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -638,8 +633,6 @@ address {
 }
 
 .project-group {
-  padding-bottom: 20px;
-
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
