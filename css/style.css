@@ -222,16 +222,18 @@ header {
 }
 .logo {
   display: block;
-  padding-top: 25px;
-  padding-bottom: 25px;
+
 
   color: var(--accent-color);
-
   font-family: raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
 }
 
+.logo-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 .logo  a{
   display: block;
 }
@@ -485,6 +487,7 @@ address {
 }
 
 .footer-container {
+  padding-top: 48px;
   align-items: baseline;
   margin-bottom: 28px;
 
@@ -494,7 +497,7 @@ address {
 }
 
 .footer-left {
-  margin-top: 48px;
+
   margin-right: 69px;
 }
 
@@ -509,27 +512,15 @@ address {
   flex-direction: column;
 }
 
-.footer-center,
-.footer-right {
-  margin-top: 56px;
- }
 .footer-contact {
   color: var(--prelast-text-color);
-
   line-height: 1.71;
 }
 
-.footer-left p {
-  margin-bottom: 9px;
-  margin-top: 0;
-}
-.footer-center p,
-.footer-right p {
-  margin-top: 0;
-}
 .footer-right {
+  margin-left: auto;
   /* margin-right: 93px; */
-  width: calc((100% - 60px) / 2);
+  /* width: calc((100% - 22px) / 2); */
 }
 
 .logo-footer {
@@ -543,8 +534,8 @@ address {
 }
 .footer-p {
   margin-bottom: 21px;
-  color: var(--secondary-text-color);
 
+  color: var(--secondary-text-color);
   font-weight: 700;
   text-transform: uppercase;
 }
